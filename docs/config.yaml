@@ -1,0 +1,7 @@
+navigation:
+	root:
+		- hello
+		- goodbye
+	some-stuff:
+		- the-stuff
+		- the-other-stuff
