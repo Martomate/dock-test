@@ -1,7 +1,12 @@
-navigation:
-	root:
-		- hello
-		- goodbye
-	some-stuff:
-		- the-stuff
-		- the-other-stuff
+structure:
+    - slug: /hello/
+      title: Hello!
+    - slug: /goodbye/
+      title: Goodbye
+    - slug: /some-stuff/
+      title: Some Stuff
+      children:
+          - slug: /some-stuff/the-stuff/
+            title: Stuff n1
+          - slug: /some-stuff/the-other-stuff/
+            title: Stuff n2
