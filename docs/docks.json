@@ -11,7 +11,7 @@
         "title": "Some Stuff",
         "file": "some-stuff/index.md",
         "children": [
-          { "title": "Stuff n2", "file": "some-stuff/the-other-stuff.md" }
+          { "title": "Stuff n2", "file": "some-stuff/the-other-stuff.md" },
           { "title": "Stuff n1", "file": "some-stuff/the-stuff.md" }
         ]
       }
