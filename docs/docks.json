@@ -1,0 +1,20 @@
+{
+  "in": "./",
+  "out": "../dist",
+  "schema": {
+    "title": "Example dock",
+    "file": "index.md",
+    "children": [
+      { "title": "Hello!", "file": "hello.md" },
+      { "title": "Goodbye!", "file": "goodbye.md" },
+      {
+        "title": "Some Stuff",
+        "file": "some-stuff/index.md",
+        "children": [
+          { "title": "Stuff n2", "file": "some-stuff/the-other-stuff.md" }
+          { "title": "Stuff n1", "file": "some-stuff/the-stuff.md" }
+        ]
+      }
+    ]
+  }
+}
