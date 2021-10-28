@@ -1,6 +1,4 @@
 {
-  "in": "./",
-  "out": "../dist",
   "schema": {
     "title": "Example dock",
     "file": "index.md",
